@@ -1,0 +1,52 @@
+.header {
+	padding: 12px;
+	display: flex;
+	align-items: center;
+	gap: 50px;
+
+	> h1 {
+		font-size: xx-large;
+		font-weight: 900;
+	}
+
+	> a {
+		position: relative;
+		font-size: x-large;
+		font-weight: 800;
+		outline: none;
+		text-decoration: none;
+		color: white;
+		transition: opacity 0.3s ease-in-out;
+
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+
+	> input {
+		padding: 4px;
+		user-select: none;
+		border: none;
+		border-radius: 6px;
+		background-color: rgba(179, 177, 177, 0.882);
+
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+.bubble {
+	display: flex;
+	width: 25px;
+	height: 25px;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	border-radius: 20px;
+	position: absolute;
+	left: 437px;
+	top: 13px;
+	font-size: medium;
+	font-weight: 900;
+}
